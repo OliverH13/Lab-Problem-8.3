@@ -18,7 +18,6 @@ int main() {
 
         cout << roman_number << ": " << convert_roman_to_int(roman_number) << endl;
     }
-    
 }
 
 int convert_roman_to_int(string s) {
@@ -37,7 +36,6 @@ int convert_roman_to_int(string s) {
             sum += convert(s[i]);
     }
     return sum;
-
 }
 
 int convert(char roman_literal) {
